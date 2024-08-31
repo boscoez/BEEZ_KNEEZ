@@ -1,24 +1,35 @@
-import moment from 'moment'
-import React, { useEffect, useState } from 'react'
+import React, { useState, useEffect } from 'react';
 
 const DateDisplay: React.FC = () => {
-    const [date, setDate] = useState('')
+    const [date, setDate] = useState(new Date());
 
-    /**
-     * On component render sets the date state to current date and time
-     */
     useEffect(() => {
-        const interval = setInterval(() => {
-            setDate(moment().toDate().toString())
-        }, 1000)
-        return () => clearInterval(interval)
-    }, [])
+        const intervalId = setInterval(() => {
+            setDate(new Date());
+        }, 1000);
+
+        return () => clearInterval(intervalId);
+    }, []);
+
+    const formattedDate = date.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+    });
+    const formattedTime = date.toLocaleTimeString('en-US', {
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false,
+        timeZone: 'America/Los_Angeles',
+        timeZoneName: 'short',
+    });
 
     return (
-        <div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-            <span style={{ color: 'orange' }}>{date}</span>
+        <div style={{ position: 'relative', padding: "8px", width: '100%', display: 'flex', justifyContent: 'right', alignItems: 'right', flexDirection: 'row', margin: '0px' }}>
+            <span style={{ color: 'black' }}>{formattedDate}{'::'}{formattedTime}</span>
         </div>
-    )
-}
+    );
+};
 
-export default DateDisplay
+export default DateDisplay;
