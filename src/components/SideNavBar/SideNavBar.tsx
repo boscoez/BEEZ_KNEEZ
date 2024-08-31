@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './SideNavBar.sass'; // Import the SASS file for styling
 
 interface SideNavBarProps {
@@ -11,15 +12,15 @@ const SideNavBar: React.FC<SideNavBarProps> = ({ isOpen, onClose }) => {
         <div className={`side-nav-bar ${isOpen ? 'open' : ''}`}>
             <button onClick={onClose} className="close-btn">&times;</button>
             <div className="icon-area">
-            <img src="/path/to/your/icon.png" alt="Icon" />
+                <img src="../logo192.png" alt="Icon" className='nav-icon'/>
             </div>
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#biography">Biography</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#showcase">Showcase</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><Link to="/" onClick={onClose}>Home</Link></li>
+                    <li><Link to="/biography" onClick={onClose}>Biography</Link></li>
+                    <li><Link to="/education" onClick={onClose}>Education</Link></li>
+                    <li><Link to="/showcase" onClick={onClose}>Showcase</Link></li>
+                    <li><Link to="/contact" onClick={onClose}>Contact</Link></li>
                 </ul>
             </nav>
         </div>

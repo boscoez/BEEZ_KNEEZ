@@ -14,12 +14,12 @@
     align-items: center
 
 .side-nav-bar.open
-    width: 250px
+    width: 275px
 
 .side-nav-bar .close-btn
     position: absolute
-    top: 20px
-    right: 25px
+    top: 10px
+    right: 15px
     font-size: 36px
     background: none
     border: none
@@ -33,8 +33,8 @@
     width: 100%
     display: flex
     justify-content: center
-    align-items: center
-    padding: 20px 0
+    align-items: top
+    padding: 40px 0
 
 .side-nav-bar nav
     width: 100%
@@ -50,7 +50,7 @@
     height: 100%
 
 .side-nav-bar nav ul li
-    padding: 8px 0
+    padding: 42px 0
     text-decoration: none
     font-size: 25px
     color: #818181
@@ -63,3 +63,15 @@
 .side-nav-bar nav ul li:hover
     color: lime
     text-decoration: underline
+
+.nav-icon
+    width: 90px
+    height: 90px
+    animation: spin 10s linear infinite
+    margin-right: 10px
+
+@keyframes spin
+    from
+        transform: rotate(0deg)
+    to
+        transform: rotate(360deg)
