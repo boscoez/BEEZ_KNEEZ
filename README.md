@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">New React App</h1>
 
 <br />
@@ -138,3 +139,14 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 #
 
 <p align="center">Bootstrapped with Create React App.</p>
+=======
+- 👋 Hi, I’m @BEEZ_KNEEZ
+- 👀 I’m interested in the power of quantum computing...
+- 🌱 I’m currently finishing Principle Language Design...
+- 💞️ I’m looking to collaborate on .asm, Python, HTML, CSS, JavaFx, C++, Databases, and Java for now...
+
+<!---
+boscoez/BZ_KNZ is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+>>>>>>> mainOne
