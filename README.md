@@ -97,73 +97,75 @@ Checks if your files are formatted. This command will output a human-friendly me
 This is the structure of the files in the project:
 
 ```sh
-   myportfolio-app/
-├── public                  # public files (favicon, .htaccess, manifest, ...)
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── logo192.png
-│   ├── logo512.png
-│   ├── manifest.json
-│   robots.txt
-├── src                     # source files
-│   ├── components
-│   │   ├── Footer
-│   │   │   ├── Footer.sass
-│   │   │   └── Footer.tsx   
-│   │   ├── HamburgerMenuButton
-│   │   │   ├── HamburgerMenuButton.sass
-│   │   │   └── HamburgerMenuButton.tsx
-│   │   ├── Header
-│   │   │   ├── Header.sass
-│   │   │   └── Header.tsx
-│   │   ├── HomePage
-│   │   │   └── HomePage.sass
-│   │   ├── SideNavBar
-│   │   │   ├── SideNavBar.sass
-│   │   │   └── SideNavBar.tsx
-│   │   └── DateDisplay.tsx
-│   │   
-│   ├── pages
-│   │   ├── Biography.tsx
-│   │   ├── Contact.tsx
-│   │   ├── Education.tsx
-│   │   ├── HomePage.tsx
-│   │   ├── Showcase.tsx
-│   │   ├── Contact.tsx
-│   │   └── NotFoundPage.tsx
-│   ├── resources           # images, constants and other static resources
-│   │   ├── api-constants.ts
-│   │   └── routes-constants.ts
-│   ├── store               # Redux store
-│   │   ├── data.ts         
-│   │   ├── thunkActions.ts
-│   │   └── reducers        # store's reducers
-│   │       ├── data.ts    
-│   │       └── store.ts
-│   ├── styles
-│   │   ├── _mixins.sass
-│   │   ├── _variables.sass
-│   │   └── main.sass
-│   ├── tests               # all test files
-│   │   ├── components
-│   │   └── pages
-│   ├── types            # utilities functions and custom components
-│   │   └── reducers.ts
-│   ├── utility
-│   │   ├── customAxios.ts
-│   │   └── functions.ts
-│   ├── App.tsx
-│   ├── index.tsx
-│   ├── react-app-env.d.ts
-│   ├── RootComponent.tsx   # React component with all the routes
-│   ├── serviceWorker.ts
-│   └── setupTests.ts
-├── .eslintrc.js
-├── .prettierrc
-├── package.json
-├── README.md
-└── tsconfig.json
+myportfolio-app/
+    ├── public                  # public files (favicon, .htaccess, manifest, ...)
+    │   ├── favicon.ico
+    │   ├── index.html
+    │   ├── logo192.png
+    │   ├── logo512.png
+    │   ├── manifest.json
+    │   └── robots.txt
+    ├── src                     # source files
+    │   ├── components
+    │   │   ├── Footer
+    │   │   │   ├── Footer.sass
+    │   │   │   └── Footer.tsx   
+    │   │   ├── HamburgerMenuButton
+    │   │   │   ├── HamburgerMenuButton.sass
+    │   │   │   └── HamburgerMenuButton.tsx
+    │   │   ├── Header
+    │   │   │   ├── Header.sass
+    │   │   │   └── Header.tsx
+    │   │   ├── HomePage
+    │   │   │   └── HomePage.sass
+    │   │   ├── SideNavBar
+    │   │   │   ├── SideNavBar.sass
+    │   │   │   └── SideNavBar.tsx
+    │   │   └── DateDisplay.tsx
+    │   │   
+    │   ├── pages
+    │   │   ├── Biography.tsx
+    │   │   ├── Contact.tsx
+    │   │   ├── Education.tsx
+    │   │   ├── HomePage.tsx
+    │   │   ├── Showcase.tsx
+    │   │   ├── Contact.tsx
+    │   │   └── NotFoundPage.tsx
+    │   ├── resources           # images, constants and other static resources
+    │   │   ├── api-constants.ts
+    │   │   └── routes-constants.ts
+    │   ├── store               # Redux store
+    │   │   ├── data.ts         
+    │   │   ├── thunkActions.ts
+    │   │   └── reducers        # store's reducers
+    │   │       ├── data.ts    
+    │   │       └── store.ts
+    │   ├── styles
+    │   │   ├── _mixins.sass
+    │   │   ├── _variables.sass
+    │   │   └── main.sass
+    │   ├── tests               # all test files
+    │   │   ├── components
+    │   │   └── pages
+    │   ├── types            # utilities functions and custom components
+    │   │   └── reducers.ts
+    │   ├── utility
+    │   │   ├── customAxios.ts
+    │   │   └── functions.ts
+    │   ├── App.tsx
+    │   ├── index.tsx
+    │   ├── react-app-env.d.ts
+    │   ├── RootComponent.tsx   # React component with all the routes
+    │   ├── serviceWorker.ts
+    │   └── setupTests.ts
+    ├── .eslintrc.js
+    ├── .prettierrc
+    ├── package.json
+    ├── README.md
+    └── tsconfig.json
 ```
+
+# <p align="center">Bootstrapped with Create React App.</p>
 
 # 📖 Learn More
 
@@ -171,14 +173,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-# <p align="center">Bootstrapped with Create React App.</p>
-
-- 👋 Hi, I’m @BEEZ_KNEEZ
-- 👀 I’m interested in the power of quantum computing...
-- 🌱 I’m currently finishing Principle Language Design...
-- 💞️ I’m looking to collaborate on .asm, Python, HTML, CSS, JavaFx, C++, Databases, and Java for now...
-
-<!---
-boscoez/BZ_KNZ is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
