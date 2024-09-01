@@ -13,7 +13,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 # <p align="center">Bootstrapped with Create React App.</p>
 
 <br />
-
 # 🧬 Project structure
 
 This is the structure of the files in the project:
