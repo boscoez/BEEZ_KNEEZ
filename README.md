@@ -7,101 +7,6 @@ Describe your project, how it works and how to contribute to it.
 
 <br />
 
-# 🚀 Available Scripts
-
-In the project directory, you can run:
-
-<br />
-
-## ⚡️ start
-
-<br />
-
-This is a blank README file that you can customize at your needs.\
-Describe your project, how it works and how to contribute to it.
-
-<br />
-
-# 🚀 Available Scripts
-
-In the project directory, you can run:
-
-<br />
-
-## ⚡️ start
-
-<br />
-
-This is a blank README file that you can customize at your needs.\
-Describe your project, how it works and how to contribute to it.
-
-<br />
-
-# 🚀 Available Scripts
-
-In the project directory, you can run:
-
-<br />
-
-## ⚡️ start
-
-<br />
-
-This is a blank README file that you can customize at your needs.\
-Describe your project, how it works and how to contribute to it.
-
-<br />
-
-# 🚀 Available Scripts
-
-In the project directory, you can run:
-
-<br />
-
-## ⚡️ start
-
-<br />
-
-This is a blank README file that you can customize at your needs.\
-Describe your project, how it works and how to contribute to it.
-
-<br />
-
-# 🚀 Available Scripts
-
-In the project directory, you can run:
-
-<br />
-
-## ⚡️ start
-
-<br />
-
-This is a blank README file that you can customize at your needs.\
-Describe your project, how it works and how to contribute to it.
-
-<br />
-
-# 🚀 Available Scripts
-
-In the project directory, you can run:
-
-<br />
-
-## ⚡️ start
-
-<br />
-
-This is a blank README file that you can customize at your needs.\
-Describe your project, how it works and how to contribute to it.
-
-<br />
-
-# 🚀 Available Scripts
-
-In the project directory, you can run:
-
-<br />
 
 ## ⚡️ start
 
@@ -266,10 +171,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-#
+# <p align="center">Bootstrapped with Create React App.</p>
 
-<p align="center">Bootstrapped with Create React App.</p>
-=======
 - 👋 Hi, I’m @BEEZ_KNEEZ
 - 👀 I’m interested in the power of quantum computing...
 - 🌱 I’m currently finishing Principle Language Design...
