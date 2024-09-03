@@ -26,8 +26,8 @@ const DateDisplay: React.FC = () => {
     });
 
     return (
-        <div style={{ position: 'relative', padding: "8px", width: '100%', display: 'flex', justifyContent: 'right', alignItems: 'right', flexDirection: 'row', margin: '0px' }}>
-            <span style={{ color: 'black' }}>{formattedDate}{'::'}{formattedTime}</span>
+        <div style={{ position: 'relative', padding: "5px", width: '100%', display: 'flex', justifyContent: 'right', alignItems: 'right', flexDirection: 'row', margin: '2px' }}>
+            <span style={{ color: 'black', fontWeight: 'bold'  }}>{formattedDate}{'::'}{formattedTime}</span>
         </div>
     );
 };
