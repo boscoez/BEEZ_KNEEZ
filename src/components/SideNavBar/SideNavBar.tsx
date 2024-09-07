@@ -12,7 +12,7 @@ const SideNavBar: React.FC<SideNavBarProps> = ({ isOpen, onClose }) => {
         <div className={`side-nav-bar ${isOpen ? 'open' : ''}`}>
             <button onClick={onClose} className="close-btn">&times;</button>
             <div className="icon-area">
-                <img src="../logo192.png" alt="Icon" className='nav-icon'/>
+                <img src="../logo192.png" alt="Icon" className='spin-icon'/>
             </div>
             <nav>
                 <ul>

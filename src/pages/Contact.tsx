@@ -44,9 +44,10 @@ const Contact: React.FC = () => {
                 <title>Contact</title>
             </Helmet>
             <Header title="Contact" />
+            <DateDisplay />
             <div className="content">
-                <DateDisplay />
-                <h2 style={{ fontSize: '3em', padding: '0px', textAlign: 'center', fontFamily: 'courier' }}>Let&apos;s Connect.</h2>
+               
+                <h2 style={{ fontSize: '4em', padding: '0px', textAlign: 'center', fontFamily: 'courier' }}>Let&apos;s Connect.</h2>
                 <div className="form-container">
                     <form onSubmit={handleSubmit} style={{ maxWidth: '600px', margin: 'auto' }}>
                         <div>
@@ -78,7 +79,7 @@ const Contact: React.FC = () => {
                                 value={formData.message}
                                 onChange={handleChange}
                                 required
-                                style={{ width: '100%', height: '150px', padding: '10px', margin: '20px 0' }}
+                                style={{ width: '100%', height: '150px', padding: '10px', margin: '10px 0' }}
                             />
                         </div>
                         <button type="submit" className="submit-btn">
@@ -89,11 +90,12 @@ const Contact: React.FC = () => {
                         <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-linkedin"></i>
                         </a>
+                        - OR -
                         <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-github"></i>
-                        </a>
+                        </a></div>
+                        
                     </div>
-                </div>
             </div>
             <Footer />
         </div>
