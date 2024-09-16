@@ -32,6 +32,9 @@
     "lint": "eslint --cache .",
     "format": "prettier --check ."
   },
+  "extensionDependencies": [
+    "vscode.git"
+],
   "eslintConfig": {
     "extends": "react-app"
   },
